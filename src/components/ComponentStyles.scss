@@ -1,0 +1,128 @@
+body {
+  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.react-kanban-column {
+  padding: 15px;
+  border-radius: 7px;
+  margin: 5px;
+}
+.react-kanban-card {
+  border-radius: 7px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+#root.dark .react-kanban-column {
+  background-color: #323232;
+  margin: 5px;
+}
+#root.dark .react-kanban-card {
+  background-color: #25262b;
+}
+
+//TODO if not using background image change black ^^^
+
+td.task-title,
+td.task-board_name {
+  text-transform: capitalize;
+}
+.react-kanban-column {
+  background-color: rgb(180 180 180 / 70%);
+}
+#root.dark .react-kanban-column {
+  background-color: rgb(109 109 109 / 60%);
+}
+
+#root.light .mantine-AppShell-main {
+  background-image: url(../../public/images/Board-Background-Light.png);
+  background-size: cover;
+}
+
+#root.dark .mantine-AppShell-main {
+  background-image: url(../../public/images/Board-Background-Dark.png);
+  background-size: cover;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header-icons .mantine-Popover-root,
+.header-icons .mantine-ActionIcon-outline {
+  margin-right: 10px;
+}
+
+.report-data,
+.weather-widget {
+  // padding: 20px;
+  // width: 100%;
+  margin: 0 20px;
+}
+.report-data .mantine-Card-cardSection {
+  padding: 20px 10px;
+}
+// make home page have some padding around grid
+.home-grid,
+.about-grid {
+  padding: 20px 40px;
+}
+
+.mantine-Button-subtle:hover {
+  background-color: rgb(238 238 238 / 70%);
+}
+#root.dark .mantine-Button-subtle:hover {
+  background-color: rgb(109 109 109 / 60%);
+}
+
+#root.light .mantine-Header-root {
+  border-bottom: 1px solid #89a3bf;
+  background-color: #33495b;
+}
+nav.mantine-Navbar-root.mantine-1hxzrnp {
+  background-color: #33495b;
+}
+.mantine-Header-root button {
+  color: #89a3bf;
+  border: none;
+  margin-right: 10px;
+}
+.mantine-Tooltip-root.mantine-gc2cx1 svg {
+  border: none !important;
+  stroke: #8aa3bf;
+}
+svg.nav-buttons:hover {
+  stroke: #fff;
+  background: none;
+}
+
+.mantine-Popover-root button {
+  margin-right: 0 !important;
+}
+
+.about-contact-form .mantine-Group-child {
+  width: 100%;
+  margin: 0 1em;
+}
+
+.about-contact-card {
+  background-color: rgb(238 238 238 / 90%);
+  margin: 10px 0;
+}
+
+.about-accordion {
+  background-color: rgb(238 238 238 / 90%);
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+// .chat-message {
+//   display: 'flex';
+//   justify-content: 'flex-end'
+// }
+.footable {
+  background-color: rgb(255 255 255 / 70%);
+  border-radius: 8px;
+}
